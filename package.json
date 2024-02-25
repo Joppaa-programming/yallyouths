@@ -1,0 +1,31 @@
+{
+  "name": "youthassociationapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint",
+    "init": "npm i"
+  },
+  "dependencies": {
+    "firebase": "^9.18.0",
+    "firebase-admin": "^11.5.0",
+    "fs": "^0.0.1-security",
+    "next": "13.2.4",
+    "next-hubspot": "^1.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^4.8.0",
+    "react-player": "^2.12.0",
+    "react-world-flags": "^1.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
