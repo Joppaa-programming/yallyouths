@@ -38,7 +38,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id='contactus' className="bg-neutral-900 dark:bg-yellow-400 pt-28">
+    <section id='contactus' className=" dark:bg-red-400 pt-28">
       <div className='gap-16 items-start content-center py-8 px-4 mx-auto max-w-screen-xl md:grid md:grid-cols-2 lg:py-16 lg:px-6'>
         <div>                 <h1 className="text-5xl font-extrabold text-neutral-100 dark:text-neutral-100 sm:text-7xl">READY?
                   </h1>
