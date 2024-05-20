@@ -1,3 +1,4 @@
+import Contents from './componets/content'
 import NavBar from './componets/nav'
 import './globals.css'
 
@@ -11,7 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className='flex flex-col'>
       <NavBar />
-        {children}
+         <Contents>
+                    {children}
+                  </Contents> 
         </body>
     </html>
   )

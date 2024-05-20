@@ -71,47 +71,49 @@ export default function Footer() {
                 <div className='md:pl-10'>
                     <h2 className='text-3xl sm:text-5xl text-blue-400 font-bold'>WORLD</h2>
                     <p className='mt-3'> YALL (Youth Association of Land Lords)<br></br>
-                    Kombo North West Coast Region,<br></br>
-                    The Gambia</p>
-                    <p className='mt-3'>YALL<br></br>
-                        +44 773 707 9752
-                    </p>
+                        Kombo North West Coast Region,<br></br>
+                        The Gambia</p>
+                    <span className='mt-3'><p>YALL</p>
+                    +44 7359 042981  | +220 521 1488   <br/>|
+                        +220 798 3754
+                    </span>
                     <div className='flex pt-3 justify-start text-center text-blue-400'>
                         <FaFacebookF className='text-xl mr-5' /><FaInstagram className='text-xl mr-5 ' /><FaLinkedinIn className='text-xl mr-5' />
                     </div>
                 </div>
             </div>
             <div id='footer-bottom' className='border-t-2 lg:flex lg:justify-center lg:text-center'>
-     
+
                 <div className='text-xs my-4 text-gray-500 lg:flex px-2 align-top justify-center'>
-                <a href="#contactus">
-                <div className='flex md:px-5 content-center md:align-middle text-blue-400' >
-                    <h2 className='text-xl text-center font-bold'>
-                        YALL
-                    </h2>
-                    <span className='text-xl font-bold lg:grid lg:grid-cols-2 '>
-                        |
-                    </span>
-                    <p className='text-xl font-bold'>
-                        be ready.
-                    </p>
-                </div>
-                </a>
+                    <a href="#contactus">
+                        <div className='flex md:px-5 content-center md:align-middle text-blue-400' >
+                            <h2 className='text-xl text-center font-bold'>
+                                YALL
+                            </h2>
+                            <span className='text-xl font-bold lg:grid lg:grid-cols-2 '>
+                                |
+                            </span>
+                            <p className='text-xl font-bold'>
+                                be ready.
+                            </p>
+                        </div>
+                    </a>
                     <p className=''> Youth Association Of Landlords Limited Copyright © 2023 </p>
-                    <p className='px-3'>WhatApp : 0447737079752  </p>
-                    <p className='px-3'> Developed By Carlos Tamale </p>
+                    <span className='px-3 '> WhatsApp : +44 7359 042981 | +220 521 1488   <br/>|
+                        +220 798 3754 </span>
+                    <Link href={'https://zabbu.org/'} className='px-3'> Developed By Zabbu Marketing </Link>
                     <a href="/"><h2 className='text-xs px-2 text-black '>Privacy Policy
-                </h2 > </a>
-        
-                <a href="/">
+                    </h2 > </a>
+
+                    <a href="/">
                         <h2 className='text-xs px-2 text-black '>
-                        Youth Association Of Landlords
+                            Youth Association Of Landlords
                         </h2>
                     </a>
                 </div>
 
-         
-              
+
+
 
 
             </div></div>

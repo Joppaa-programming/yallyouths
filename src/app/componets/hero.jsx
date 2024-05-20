@@ -9,7 +9,7 @@ import Slider from './slider';
 
 export default function Hero() {
     return (
-        <div className='mt-10 '>
+       
             <div className="hero">
                 <div className=''>
                     <video autoPlay muted loop className='hero-video'>
@@ -18,11 +18,11 @@ export default function Hero() {
                     </video>
                 </div>
                 {/* overlay */}
-                <div className='opacity-70 w-full h-full bg-black'>
+                <div className='opacity-70 w-full h-full bg-black relative'>
 
-                    <div className="container hero-content opacity-100 mx-auto flex absolute flex-col items-center py-12 sm:py-24">
+                    <div className="container bottom-0 hero-content opacity-100  flex absolute flex-col items-center  ">
                         <div className="w-full mt-6 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
-                            <span className='text-5xl sm:text-6xl md:text-6xl lg:text-9xl  text-center  outline-text font-black'>
+                            <span className='text-5xl sm:text-6xl md:text-6xl lg:text-8xl  text-center  outline-text font-black'>
                                 <h1 className=" xl:text-6xl lg:text-6xl">
                                     youth
                                 </h1>
@@ -53,7 +53,7 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </div>
+        
     )
 
 
